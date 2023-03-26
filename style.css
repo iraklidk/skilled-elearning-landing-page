@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,500;0,600;1,500&family=Hanken+Grotesk:wght@700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-txt {
+    margin-top: 22px;
+    margin-left: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #13183F;
+}
+
+.header-button {
+    margin-top: 16px;
+    margin-right: 10px;
+    width: 140px;
+    height: 48px;
+    background: #13183F;
+    border-radius: 28px;
+}
+
+.button-txt {
+    height: 48px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-txt {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    margin-top: 38px;
+    margin-left: 16px;
+}
+
+.content-descr {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 26px;
+    margin-left: 16px;
+}
+
+.content-btn {
+    margin-top: 40px;
+    width: 167px;
+    height: 56px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    margin-left: 16px;
+}
+
+.content-btn-txt {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-tablet {
+    display: none;
+}
+
+.photo-pc {
+    display: none;
+}
+
+.photo-mobile {
+    background-image: url(assets/image-hero-mobile.png);
+    width: 400px;
+    height: 340px;
+    margin-left: calc(50% - 420px/2);
+    margin-top: 70px;
+}
+
+.box {
+    width: 343px;
+    height: 120px;
+    margin-left: calc(50% - 343px/2);
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-txt {
+    width: 286px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.card {
+    margin-top: 40px;
+    width: 343px;
+    height: 259px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    margin-left: calc(50% - 343px/2);
+}
+
+.icon {
+    margin-left: 28px;
+    margin-top: -24px;
+}
+
+.card-header {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+    margin-left: 28px;
+    margin-top: 24px;
+}
+
+.card-descr {
+    width: 286px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+
+.card-btn {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    margin-left: 28px;
+    margin-top: 24px;
+}
+
+.grid-section {
+  background-image: var(--bg-gradient);
+  padding: 0 1rem 5rem 1rem;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #13183F;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-txt {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-left: 16px;
+}
+
+.footer-btn {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 36px;
+}
+
+.footer-btn-txt {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 800px) {
+
+  .grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+    .box {
+        width: 340px;   
+        height: 259px;
+        margin: 0;
+        margin-top: 120px;
+        margin-left: calc(50% - 170px);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-txt {
+        margin-left: 40px;
+    }
+
+    .photo-pc {
+        display: none;
+    }
+
+    .content-txt {
+        margin-left: 40px;
+    }
+
+    .content-descr {
+        width: 400px;
+        margin-left: 40px;
+    }
+
+    .content-btn {
+        margin-left: 40px;
+    }
+
+    .content-txt {
+        margin-top: 105px;
+    }
+
+    .photo-mobile {
+        display: none;
+    }
+
+    .photo-tablet {
+        height: 640px;
+        position: absolute;
+        right: -270px;
+        top: -80px;
+        width: 640px;
+        z-index: -1;
+        display: flex;
+    }
+
+    .header-button {
+        margin-right: 40px;
+    }
+
+    .card1 {
+        margin-top: 120px;
+    }
+
+
+    .tablet-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: calc(50% - 300px);
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .grid-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+    .header-txt, .content-descr, .content-txt, .content-btn {
+        margin-left: 165px;
+    }
+
+    .footer-txt {
+        margin-left: 165px;
+    }
+
+    .footer-btn {
+        margin-right: 165px;
+    }
+
+    .content-btn:hover, .header-button:hover, .footer-btn:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.5px;
+        cursor: pointer;
+    }
+
+    .header-button {
+        margin-right: 165px;
+    }
+
+    .grid-section {
+        column-gap: 1.875rem;
+        padding: 0 10.3125rem 8.75rem 10.3125rem;
+      }
+
+
+    .photo-tablet {
+        display: none;
+    }
+
+    .photo-pc {
+        display: flex;
+        position: absolute;
+        height: 800px;
+        right: -358px;
+        top: -146px;
+        width: 992px;
+        z-index: -1;
+    }
+
+    .card1, .card2 {
+        margin-top: 120px;
+    }
+
+    .content-txt {
+        margin-top: 186px;
+    }
+
+}
