@@ -22,7 +22,7 @@ Screenshot 3 PC - https://ibb.co/84hm3WX
 
 ### Links
 
-- Live Site URL: https://iraklido.github.io/skilled-elearning-landing-page/
+- Live Site URL: https://iraklidk.github.io/skilled-elearning-landing-page/
 
 ### Built with
 
